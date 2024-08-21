@@ -1,5 +1,5 @@
 # Gerenciamento-de-hospedagens-hoteleiras
-------------------------------------------------------------------------------------------------------------------------------------------
+
 Linguagem Utilizada: SQL
 
 Ferramenta Utilizada: MySql
