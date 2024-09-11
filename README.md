@@ -1,4 +1,4 @@
-# Gerenciamento-de-hospedagens-hoteleiras
+## Gerenciamento-De-Hospedagens-Hoteleiras
 
 Linguagem Utilizada: SQL
 
@@ -12,8 +12,7 @@ Estado do Projeto: 100% Concluído.
 
 Descrição: Meu primeiro projeto envolvendo banco de dados, aqui criei um sistema de gerenciamento de hospedagens para hotéis. O sistema desenvolvido tem capacidade de armazenar informações sobre hotéis, quartos, clientes e hospedagens. Os clientes podem se hospedar em quartos de hotéis diferentes, e o sistema mantém um registro das reservas/hospedagens. Nesse projeto haverão divisões para facilitar a visualização do código, as divisões serão de: consultas, procedures, functions e triggers.
 
-------------------------------------------------------------------------------------------------------------------------------------------
-- Consultas e Comandos SQL:
+## Consultas & Comandos SQL:
 
 A. Lista todos os hotéis e seus respectivos quartos, apresentando os seguintes campos: hotel, nome e cidade; quarto, tipo e preco_diaria;
 
@@ -38,15 +37,15 @@ L. ​Cria a coluna checkin_realizado do tipo booleano na tabela Hospedagem. E a
 
 M. ​Muda o nome da coluna “classificacao” da tabela Hotel para “ratting”.
 
-- Procedures:
+## Procedures:
 
 A. Cria uma procedure chamada "RegistrarCheckIn" que aceita hospedagem_id e data_checkin como parâmetros. A procedure atualiza a data de check-in na tabela "Hospedagem" e muda o status_hosp para "hospedado".​
 
 B. Cria uma procedure chamada "CalcularTotalHospedagem" que aceita hospedagem_id como parâmetro. A procedure calcula o valor total da hospedagem com base na diferença de dias entre check-in e check-out e o preço da diária do quarto reservado. O valor é atualizado na coluna valor_total_hosp.​
 
-c. Cria uma procedure chamada "RegistrarCheckout" que aceita hospedagem_id e data_checkout como parâmetros. A procedure atualiza a data de check-out na tabela "Hospedagem" e muda o status_hosp para "finalizada".​
+C. Cria uma procedure chamada "RegistrarCheckout" que aceita hospedagem_id e data_checkout como parâmetros. A procedure atualiza a data de check-out na tabela "Hospedagem" e muda o status_hosp para "finalizada".​
 
-- Functions:
+## Functions:
 
 A. Cria uma function chamada "TotalHospedagensHotel" que aceita hotel_id como parâmetro. A função retorna o número total de hospedagens realizadas em um determinado hotel.​
 
@@ -54,10 +53,9 @@ B. Cria uma function chamada "ValorMedioDiariasHotel" que aceita hotel_id como p
 
 C. Cria uma function chamada "VerificarDisponibilidadeQuarto" que aceita quarto_id e data como parâmetros. A função retorna um valor booleano indicando se o quarto está disponível ou não para reserva na data especificada.​
 
-- Triggers:
+## Triggers:
 
 A. Cria um trigger chamado "AntesDeInserirHospedagem" que é acionado antes de uma inserção na tabela "Hospedagem". O trigger verifica se o quarto está disponível na data de check-in. Se não estiver, a inserção é cancelada.
 
 B. Cria um trigger chamado "AposDeletarCliente" que é acionado após a exclusão de um cliente na tabela "Cliente". O trigger registra a exclusão em uma tabela de log.​
 
-------------------------------------------------------------------------------------------------------------------------------------------
