@@ -246,7 +246,7 @@ C. Cria uma procedure chamada "RegistrarCheckout" que aceita hospedagem_id e dat
   <img src="assets/procedimento 3.png">
 </p>
 
-# 🔧 Functions
+# Functions
 
 A. Cria uma function chamada "TotalHospedagensHotel" que aceita hotel_id como parâmetro. A função retorna o número total de hospedagens realizadas em um determinado hotel.​
 <p align="center">
