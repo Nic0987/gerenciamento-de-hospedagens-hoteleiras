@@ -64,6 +64,98 @@ valor_total_hosp (FLOAT, NOT NULL)
 
 status_hosp (VARCHAR(50), NOT NULL)
 
+# 🎲 Inserção de Dados 
+
+**1. Hotéis**
+
+INSERT INTO Hotel (nome, cidade, uf, classificacao) VALUES 
+
+('Hotel Vale do Sol', 'Itaborai', 'RJ', 4), 
+
+('Hotel Aguas Claras', 'Cabo Frio', 'RJ', 5);
+
+**2. Quartos**
+
+INSERT INTO Quarto (hotel_id, numero, tipo, preco_diaria) VALUES 
+
+(1, 1001, 'Solteiro', 100.00), 
+
+(1, 1002, 'Duplo Solteiro', 150.00), 
+
+(1, 1003, 'Casal', 250.00), 
+
+(1, 1004, 'Deluxe', 300.00), 
+
+(1, 1005, 'Solteiro', 100.00); 
+
+-- Hotel Aguas Claras
+
+INSERT INTO Quarto (hotel_id, numero, tipo, preco_diaria) VALUES 
+
+(2, 2001, 'Solteiro', 150.00),
+
+(2, 2002, 'Duplo Solteiro', 200.00), 
+
+(2, 2003, 'Casal', 300.00),
+
+(2, 2004, 'Deluxe', 350.00), 
+
+(2, 2005, 'Solteiro', 150.00); 
+
+**3. Clientes**
+
+INSERT INTO Cliente (nome, email, telefone, cpf) VALUES
+
+('Rosario Nunes', 'rosarionunes123@gmail.com', '21987654321', '12345678901'),
+
+('Carlos Nascimento', 'carlosnascimento765@gmail.com', '11987654321', '23456789012'),
+
+('Maria Silva', 'mariasilva876@gmail.com', '31987654321', '21567890123');
+
+**4. Hospedagens**
+
+INSERT INTO Hospedagem (cliente_id, quarto_id, dt_checkin, dt_checkout, valor_total_hosp, status_hosp) VALUES
+
+(1, 5, '2024-01-01', '2024-01-04', 300.00, 'Finalizada'),
+
+(3, 10, '2024-03-07', '2024-03-09', 200.00, 'Finalizada'),
+
+(3, 6, '2024-04-03', '2024-04-06', 450.00, 'Finalizada'),
+
+(2, 8, '2024-02-15', '2024-02-19', 1200.00, 'Finalizada'),
+
+(2, 2, '2024-05-01', '2024-05-05', 600.00, 'Finalizada'),
+
+(2, 2, '2024-02-08', '2024-02-10', 300.00, 'Cancelada'),
+
+(3, 1, '2024-07-01', '2024-07-04', 300.00, 'Cancelada'),
+
+(1, 4, '2024-07-10', '2024-07-12', 600.00, 'Cancelada'),
+
+(2, 5, '2024-07-08', '2024-07-09', 100.00, 'Cancelada'),
+
+(3, 2, '2024-07-16', '2024-07-18', 300.00, 'Cancelada'),
+
+(3, 4, '2024-05-07', '2024-05-09', 600.00, 'Hospedado'),
+
+(3, 9, '2024-05-09', '2024-05-10', 350.00, 'Hospedado'),
+
+(1, 10, '2024-05-01', '2024-05-05', 600.00, 'Hospedado'),
+
+(1, 10, '2024-05-15', '2024-05-17', 300.00, 'Hospedado'),
+
+(3, 4, '2024-05-15', '2024-05-17', 600.00, 'Hospedado'),
+
+(1, 5, '2024-06-06', '2024-06-08', 200.00, 'Reserva'),
+
+(2, 7, '2024-06-01', '2024-06-03', 400.00, 'Reserva'),
+
+(3, 10, '2024-07-15', '2024-07-18', 450.00, 'Reserva'),
+
+(2, 1, '2024-08-01', '2024-08-03', 200.00, 'Reserva'),
+
+(1, 4, '2024-08-10', '2024-09-12', 600.00, 'Reserva');
+
 # 🔍 Consultas & Comandos SQL:
 
 A. Lista todos os hotéis e seus respectivos quartos, apresentando os seguintes campos: hotel, nome e cidade; quarto, tipo e preco_diaria;
