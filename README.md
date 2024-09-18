@@ -3,13 +3,13 @@
 # 🧩 Sumário 
 
 <p align="center">
-   <a href="#💻SobreoProjeto"> 💻 Sobre o Projeto  </a> •
-   <a href="#⚙️EstruturadoBancodeDados"> ⚙️ Estrutura do Banco de Dados </a> •
-   <a href="#Inserção de Dados "> 🎲 Inserção de Dados  </a> •
-   <a href="#Consultas & Comandos SQL"> 🔍 Consultas & Comandos SQL </a> •
-   <a href="#Procedures"> 🔗 Procedures </a> •
-   <a href="#Functions"> 🔧 Functions </a> •
-   <a href="#Triggers"> 🪝 Triggers </a> 
+   <a href="#sobre-o-projeto"> 💻 Sobre o Projeto </a> •
+   <a href="#estrutura-do-banco-de-dados"> ⚙️ Estrutura do Banco de Dados </a> •
+   <a href="#insercao-de-dados"> 🎲 Inserção de Dados </a> •
+   <a href="#consultas-&-comandos-sql"> 🔍 Consultas e Comandos SQL </a> •
+   <a href="#procedures"> 🔗 Procedures </a> •
+   <a href="#functions"> 🔧 Functions </a> •
+   <a href="#triggers"> 🪝 Triggers </a>
 </p>
 
 # 💻 Sobre o Projeto 
