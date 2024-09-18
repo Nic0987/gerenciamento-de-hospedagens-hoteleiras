@@ -12,7 +12,7 @@
    <a href="#triggers"> 🪝 Triggers </a>
 </p>
 
-# Sobre o Projeto 
+# Sobre o Projeto 💻
 
 Este projeto foi desenvolvido em Maio de 2024, como parte de uma atividade acadêmica sobre Banco de Dados em SQL. 
 
