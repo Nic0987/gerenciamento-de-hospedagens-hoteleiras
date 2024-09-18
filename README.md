@@ -3,7 +3,7 @@
 # 🧩 Sumário 
 
 <p align="center">
-   <a href="#💻sobre-o-projeto"> 💻 Sobre o Projeto </a> •
+   <a href="#sobre-o-projeto"> 💻 Sobre o Projeto </a> •
    <a href="#estrutura-do-banco-de-dados"> ⚙️ Estrutura do Banco de Dados </a> •
    <a href="#inserção-de-dados"> 🎲 Inserção de Dados </a> •
    <a href="#consultas-e-comandos-sql"> 🔍 Consultas e Comandos SQL </a> •
@@ -12,7 +12,7 @@
    <a href="#triggers"> 🪝 Triggers </a>
 </p>
 
-# 💻 Sobre o Projeto 
+# Sobre o Projeto 
 
 Este projeto foi desenvolvido em Maio de 2024, como parte de uma atividade acadêmica sobre Banco de Dados em SQL. 
 
