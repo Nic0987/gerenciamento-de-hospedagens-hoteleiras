@@ -15,35 +15,53 @@ O esquema do banco de dados é denominado hospedar_db e inclui as seguintes tabe
 **1. Hotel**
    
 hotel_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+
 nome (VARCHAR(100), NOT NULL)
+
 cidade (VARCHAR(50), NOT NULL)
+
 uf (VARCHAR(2), NOT NULL)
+
 classificacao (INT(1), NOT NULL)
 
 **2. Quarto**
    
 quarto_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+
 hotel_id (INT, NOT NULL, FOREIGN KEY para Hotel.hotel_id)
+
 numero (INT, NOT NULL)
+
 tipo (VARCHAR(50), NOT NULL)
+
 preco_diaria (DECIMAL(10, 2), NOT NULL)
 
 **3. Cliente**
    
 cliente_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+
 nome (VARCHAR(100), NOT NULL)
+
 email (VARCHAR(50), NOT NULL)
+
 telefone (VARCHAR(15), NOT NULL)
+
 cpf (VARCHAR(15), NOT NULL, UNIQUE)
 
 **4. Hospedagem**
 
 hospedagem_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+
 cliente_id (INT, NOT NULL, FOREIGN KEY para Cliente.cliente_id)
+
 quarto_id (INT, NOT NULL, FOREIGN KEY para Quarto.quarto_id)
+
 dt_checkin (DATE, NOT NULL)
+
 dt_checkout (DATE, NOT NULL)
+
 valor_total_hosp (FLOAT, NOT NULL)
+
 status_hosp (VARCHAR(50), NOT NULL)
 
 # 🔍 Consultas & Comandos SQL:
