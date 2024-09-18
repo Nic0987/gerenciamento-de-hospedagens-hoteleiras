@@ -171,6 +171,7 @@ B. Cria um trigger chamado "AposDeletarCliente" que é acionado após a exclusã
   <img src="assets/trigger 2.png">
 </p>
 
+##
 # 📄 Autores 
 **Nicolas Ryan - Engenheiro de Software** 
 
