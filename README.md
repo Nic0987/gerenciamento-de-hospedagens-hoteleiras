@@ -5,7 +5,7 @@
 <p align="center">
    <a href="#sobre-o-projeto"> 💻 Sobre o Projeto </a> •
    <a href="#estrutura-do-banco-de-dados"> ⚙️ Estrutura do Banco de Dados </a> •
-   <a href="#insercao-de-dados"> 🎲 Inserção de Dados </a> •
+   <a href="#inserção-de-dados"> 🎲 Inserção de Dados </a> •
    <a href="#consultas-e-comandos-sql"> 🔍 Consultas e Comandos SQL </a> •
    <a href="#procedures"> 🔗 Procedures </a> •
    <a href="#functions"> 🔧 Functions </a> •
