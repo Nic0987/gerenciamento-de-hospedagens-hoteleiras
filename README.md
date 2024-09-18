@@ -3,22 +3,22 @@
 # 🧩 Sumário 
 
 <p align="center">
-   <a href="#sobre-o-projeto-💻"> 💻 Sobre o Projeto </a> •
-   <a href="#estrutura-do-banco-de-dados"> ⚙️ Estrutura do Banco de Dados </a> •
-   <a href="#inserção-de-dados"> 🎲 Inserção de Dados </a> •
-   <a href="#consultas-e-comandos-sql"> 🔍 Consultas e Comandos SQL </a> •
-   <a href="#procedures"> 🔗 Procedures </a> •
-   <a href="#functions"> 🔧 Functions </a> •
-   <a href="#triggers"> 🪝 Triggers </a>
+   <a href="#💻-sobre-o-projeto"> 💻 Sobre o Projeto </a> •
+   <a href="#⚙️-estrutura-do-banco-de-dados"> ⚙️ Estrutura do Banco de Dados </a> •
+   <a href="#🎲-insercao-de-dados"> 🎲 Inserção de Dados </a> •
+   <a href="#🔍-consultas-e-comandos-sql"> 🔍 Consultas e Comandos SQL </a> •
+   <a href="#🔗-procedures"> 🔗 Procedures </a> •
+   <a href="#🔧-functions"> 🔧 Functions </a> •
+   <a href="#🪝-triggers"> 🪝 Triggers </a>
 </p>
 
-# Sobre o Projeto 💻
+## 💻 Sobre o Projeto
 
 Este projeto foi desenvolvido em Maio de 2024, como parte de uma atividade acadêmica sobre Banco de Dados em SQL. 
 
 O objetivo desse projeto é fazer o gerenciamento de um sistema de hospedagens hoteleiras, incluindo informações sobre hotéis, quartos, clientes e hospedagens. O banco de dados foi desenvolvido para facilitar a consulta e a administração desses dados, oferecendo funcionalidades para registrar, atualizar e consultar informações de maneira eficiente e objetiva.
 
-# Estrutura do Banco de Dados 
+## ⚙️ Estrutura do Banco de Dados
 
 **Esquema**
 
@@ -76,7 +76,7 @@ valor_total_hosp (FLOAT, NOT NULL)
 
 status_hosp (VARCHAR(50), NOT NULL)
 
-# Inserção de Dados 
+## 🎲 Inserção de Dados
 
 **1. Hotéis**
 
@@ -168,7 +168,7 @@ INSERT INTO Hospedagem (cliente_id, quarto_id, dt_checkin, dt_checkout, valor_to
 
 (1, 4, '2024-08-10', '2024-09-12', 600.00, 'Reserva');
 
-# Consultas & Comandos SQL
+## 🔍 Consultas e Comandos SQL
 
 A. Lista todos os hotéis e seus respectivos quartos, apresentando os seguintes campos: hotel, nome e cidade; quarto, tipo e preco_diaria;
 <p align="center">
@@ -229,7 +229,7 @@ M. ​Muda o nome da coluna “classificacao” da tabela Hotel para “ratting�
   <img src="assets/consulta 12.png">
 </p>
 
-# Procedures
+## 🔗 Procedures
 
 A. Cria uma procedure chamada "RegistrarCheckIn" que aceita hospedagem_id e data_checkin como parâmetros. A procedure atualiza a data de check-in na tabela "Hospedagem" e muda o status_hosp para "hospedado".​
 <p align="center">
@@ -246,7 +246,7 @@ C. Cria uma procedure chamada "RegistrarCheckout" que aceita hospedagem_id e dat
   <img src="assets/procedimento 3.png">
 </p>
 
-# Functions
+## 🔧 Functions
 
 A. Cria uma function chamada "TotalHospedagensHotel" que aceita hotel_id como parâmetro. A função retorna o número total de hospedagens realizadas em um determinado hotel.​
 <p align="center">
@@ -263,7 +263,7 @@ C. Cria uma function chamada "VerificarDisponibilidadeQuarto" que aceita quarto_
   <img src="assets/função 3.png">
 </p>
 
-# Triggers
+## 🪝 Triggers
 
 A. Cria um trigger chamado "AntesDeInserirHospedagem" que é acionado antes de uma inserção na tabela "Hospedagem". O trigger verifica se o quarto está disponível na data de check-in. Se não estiver, a inserção é cancelada.
 <p align="center">
