@@ -1,16 +1,11 @@
 ## Gerenciamento-De-Hospedagens-Hoteleiras
 
-Linguagem Utilizada: SQL
+# 💻 Sobre o Projeto 
 
-Ferramenta Utilizada: MySql
+Este projeto foi desenvolvido em Julho de 2023, como parte de uma atividade acadêmica sobre Estrutura de Dados em Linguagem C. 
 
-Realização do Projeto: Abr - Jul de 2024 (5° semestre)
+O objetivo desse projeto é simular a conversão de sequências de DNA utilizando estruturas de dados dinâmicas, como Filas e Pilhas. O programa lê uma sequência de nucleotídeos (A, C, T, G), a armazena em uma Fila Dinâmica e, em seguida, converte essa sequência para uma segunda fita de DNA, armazenando-a em uma Pilha Dinâmica.
 
-Matéria: Banco de Dados II
-
-Estado do Projeto: 100% Concluído.
-
-Descrição: Meu primeiro projeto envolvendo banco de dados, aqui criei um sistema de gerenciamento de hospedagens para hotéis. O sistema desenvolvido tem capacidade de armazenar informações sobre hotéis, quartos, clientes e hospedagens. Os clientes podem se hospedar em quartos de hotéis diferentes, e o sistema mantém um registro das reservas/hospedagens. Nesse projeto haverão divisões para facilitar a visualização do código, as divisões serão de: consultas, procedures, functions e triggers.
 
 ## Consultas & Comandos SQL:
 
