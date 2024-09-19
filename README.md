@@ -2,7 +2,7 @@
 
 <p align="center">
    <a href="#-sobre-o-projeto"> 💻 Sobre o Projeto </a> •
-   <a href="#estrutura-do-banco-de-dados"> ⚙️ Estrutura do Banco de Dados </a> •
+   <a href="#estrutura-do-banco-de-dados-"> ⚙️ Estrutura do Banco de Dados </a> •
    <a href="#-inserção-de-dados"> 🎲 Inserção de Dados </a> •
    <a href="#-consultas-e-comandos-sql"> 🔍 Consultas e Comandos SQL </a> •
    <a href="#-procedures"> 🔗 Procedures </a> •
@@ -16,7 +16,7 @@ Este projeto foi desenvolvido em Maio de 2024, como parte de uma atividade acad�
 
 O objetivo desse projeto é fazer o gerenciamento de um sistema de hospedagens hoteleiras, incluindo informações sobre hotéis, quartos, clientes e hospedagens. O banco de dados foi desenvolvido para facilitar a consulta e a administração desses dados, oferecendo funcionalidades para registrar, atualizar e consultar informações de maneira eficiente e objetiva.
 
-# ⚙️ Estrutura do Banco de Dados
+# Estrutura do Banco de Dados ⚙️ 
 
 **Esquema**
 
